@@ -1,4 +1,5 @@
 .App {
+  display: flex;
   text-align: center;
 }
 
@@ -32,7 +33,81 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.leaflet-container {
+  width: 70vw;
+  height: 100vh;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  padding: 2em;
+  width: 30vw;
+}
+
+.sidebar h2,
+.sidebar p,
+.sidebar ul {
+  text-align: left;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar button {
+  width: 100%;
+  font-weight: bold;
+  padding: .8em 1em;
+}
+
+.modal{
+      z-index: 1000;
+        position: absolute;
+            width: 93%;
+              height: 87%;
+        padding: 50px;
+}
+
+.canvas{
+  height: 100%;
+}
+.close{
+  font-size: 24px;
+  position: absolute;
+  right: 11%;
+}
+
+.cross {
+  position: absolute;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.cross:hover {
+  opacity: 1;
+}
+
+.cross:before,
+.cross:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: red;
+}
+
+.cross:before {
+  transform: rotate(45deg);
+}
+
+.cross:after {
+  transform: rotate(-45deg);
 }

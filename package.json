@@ -1,27 +1,32 @@
 {
-  "name": "demo",
+  "name": "create-new-map-react-leaflet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@babel/eslint-parser": "^7.21.3",
+    "@babylonjs/core": "^5.51.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babylonjs": "^5.51.0",
+    "eslint": "6.6.0",
+    "eslint-visitor-keys": "^3.3.0",
+    "html2canvas": "^1.4.1",
+    "leaflet": "^1.6.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.6.3",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
