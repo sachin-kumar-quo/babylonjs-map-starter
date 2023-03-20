@@ -1,16 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import {
   Engine,
-  EngineOptions,
-  FreeCamera,
-  HemisphericLight,
-  Mesh,
-  MeshBuilder,
-  Scene,
-  SceneOptions,
-  Vector3
-} from "@babylonjs/core";
-import * as BABYLON from "babylonjs";
+  Scene} from "@babylonjs/core";
 
 function CuboidWithTexture(props) {
   const canvasRef = useRef(null);
