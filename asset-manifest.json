@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/babylonjs-map-starter/static/css/main.6e3be7ed.chunk.css",
+    "main.js": "/babylonjs-map-starter/static/js/main.d80b8a53.chunk.js",
+    "main.js.map": "/babylonjs-map-starter/static/js/main.d80b8a53.chunk.js.map",
+    "runtime-main.js": "/babylonjs-map-starter/static/js/runtime-main.708bab45.js",
+    "runtime-main.js.map": "/babylonjs-map-starter/static/js/runtime-main.708bab45.js.map",
+    "static/css/2.3392bebc.chunk.css": "/babylonjs-map-starter/static/css/2.3392bebc.chunk.css",
+    "static/js/2.3e728ad8.chunk.js": "/babylonjs-map-starter/static/js/2.3e728ad8.chunk.js",
+    "static/js/2.3e728ad8.chunk.js.map": "/babylonjs-map-starter/static/js/2.3e728ad8.chunk.js.map",
+    "index.html": "/babylonjs-map-starter/index.html",
+    "precache-manifest.e9d3f8e2a6aa1d08908ad32a87c671a6.js": "/babylonjs-map-starter/precache-manifest.e9d3f8e2a6aa1d08908ad32a87c671a6.js",
+    "service-worker.js": "/babylonjs-map-starter/service-worker.js",
+    "static/css/2.3392bebc.chunk.css.map": "/babylonjs-map-starter/static/css/2.3392bebc.chunk.css.map",
+    "static/css/main.6e3be7ed.chunk.css.map": "/babylonjs-map-starter/static/css/main.6e3be7ed.chunk.css.map",
+    "static/js/2.3e728ad8.chunk.js.LICENSE.txt": "/babylonjs-map-starter/static/js/2.3e728ad8.chunk.js.LICENSE.txt",
+    "static/js/main.d80b8a53.chunk.js.LICENSE.txt": "/babylonjs-map-starter/static/js/main.d80b8a53.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.708bab45.js",
+    "static/css/2.3392bebc.chunk.css",
+    "static/js/2.3e728ad8.chunk.js",
+    "static/css/main.6e3be7ed.chunk.css",
+    "static/js/main.d80b8a53.chunk.js"
+  ]
+}
